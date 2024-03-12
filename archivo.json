@@ -1,0 +1,1590 @@
+[
+    {
+        "id_module": 1,
+        "module": "MYINTELLI",
+        "path": "1",
+        "setting_module_config": {
+            "key": "MyIntelli",
+            "icon": "",
+            "route": "",
+            "position": "HEADER"
+        },
+        "order": 0,
+        "is_render": 0,
+        "is_render_mobile": 1
+    },
+    {
+        "id_module": 2,
+        "module": "DASHBOARD_PRINCIPAL",
+        "path": "1.2",
+        "setting_module_config": {
+            "key": "DashboardPrincial",
+            "icon": "",
+            "route": "",
+            "position": ""
+        },
+        "order": 1,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 3,
+        "module": "DASHBOARD_PLANS_PRINCIPAL",
+        "path": "1.3",
+        "setting_module_config": {
+            "key": "DashboardPlanPrincial",
+            "icon": "fas fa-map-marked-alt",
+            "route": "plans",
+            "position": "SIDEBAR-UP"
+        },
+        "order": 2,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 4,
+        "module": "DASHBOARD_EVENTS_MONITORING",
+        "path": "1.4",
+        "setting_module_config": {
+            "key": "DashboardEventsMonitoring",
+            "icon": "fas fa-eye",
+            "route": "events_monitoring",
+            "position": "SIDEBAR-UP"
+        },
+        "order": 3,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 5,
+        "module": "CONFIGURATION",
+        "path": "1.5",
+        "setting_module_config": {
+            "key": "Configurations",
+            "icon": "fas fa-cogs",
+            "route": "config/general",
+            "position": "SIDEBAR-DOWN"
+        },
+        "order": 6,
+        "is_render": 1,
+        "is_render_mobile": 1
+    },
+    {
+        "id_module": 6,
+        "module": "GENERAL",
+        "path": "1.5.6",
+        "setting_module_config": {
+            "key": "Configurations",
+            "icon": "fas fa-wrench",
+            "route": "config/generals/company",
+            "position": "CONFIGURACION-MENU"
+        },
+        "order": 0,
+        "is_render": 1,
+        "is_render_mobile": 1
+    },
+    {
+        "id_module": 7,
+        "module": "COMPANY",
+        "path": "1.5.6.7",
+        "setting_module_config": {
+            "key": "Company",
+            "icon": "fas fa-building",
+            "route": "config/generals/company",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 1,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1,
+            3
+        ]
+    },
+    {
+        "id_module": 8,
+        "module": "ENTITY_TYPE",
+        "path": "1.5.6.8",
+        "setting_module_config": {
+            "key": "EntityType",
+            "icon": "fas fa-users",
+            "route": "config/generals/entity_types",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 3,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 9,
+        "module": "VEHICLE_TYPE",
+        "path": "1.5.6.9",
+        "setting_module_config": {
+            "key": "VehicleType",
+            "icon": "fas fa-car-bus",
+            "route": "config/generals/vehicle_types",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 4,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 10,
+        "module": "STRUCTURE_TYPE",
+        "path": "1.5.6.10",
+        "setting_module_config": [],
+        "order": 3,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 11,
+        "module": "STRUCTURE",
+        "path": "1.5.6.11",
+        "setting_module_config": {
+            "key": "Structure",
+            "icon": "fas fa-chart-network",
+            "route": "config/generals/structures",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 2,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 12,
+        "module": "DEVICE_GROUP_INTERCONECT",
+        "path": "1.5.6.12",
+        "setting_module_config": [],
+        "order": 5,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 13,
+        "module": "DEVICE",
+        "path": "1.5.6.13",
+        "setting_module_config": {
+            "key": "Device",
+            "icon": "intelli_devices",
+            "route": "config/generals/devices",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 6,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 14,
+        "module": "USER",
+        "path": "1.5.6.14",
+        "setting_module_config": {
+            "key": "User",
+            "icon": "fas fa-users-cog",
+            "route": "config/generals/users",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 5,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 15,
+        "module": "USER_ROLE",
+        "path": "1.5.6.15",
+        "setting_module_config": [],
+        "order": 6,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 16,
+        "module": "EVENT_TASK",
+        "path": "1.5.6.16",
+        "setting_module_config": {
+            "key": "EventTask",
+            "icon": "intelli_events",
+            "route": "config/generals/event_task",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 7,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1,
+            2,
+            3,
+            4,
+            7
+        ]
+    },
+    {
+        "id_module": 17,
+        "module": "INTELLI_ACCESS",
+        "path": "17",
+        "setting_module_config": {
+            "key": "IntelliAccess",
+            "icon": "intelliaccess.svg",
+            "route": "Access/dashboard",
+            "position": "HEADER"
+        },
+        "order": 2,
+        "is_render": 1,
+        "is_render_mobile": 0
+    },
+    {
+        "id_module": 18,
+        "module": "DASHBOARD_ACCESS_CONTROL",
+        "path": "17.18",
+        "setting_module_config": {
+            "key": "DashboardAccessControl",
+            "icon": "intelli_dashboard",
+            "route": "Access/dashboard",
+            "position": "SIDEBAR-UP"
+        },
+        "order": 0,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 19,
+        "module": "PERSON_ACCESS_CONTROL",
+        "path": "17.19",
+        "setting_module_config": {
+            "key": "Person",
+            "icon": "fas fa-user",
+            "route": "Access/person",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 1,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 20,
+        "module": "ACCESS_ROLE",
+        "path": "1.5.47.20",
+        "setting_module_config": {
+            "key": "AccessRole",
+            "icon": "intelli_route",
+            "route": "config/access/access_role",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 2,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 21,
+        "module": "ACCESS_SCHEDULE",
+        "path": "1.5.47.21",
+        "setting_module_config": {
+            "key": "Access_schedule",
+            "icon": "intelli_calendar_lock",
+            "route": "config/access/access_schedule",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 1,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 22,
+        "module": "EVENTS_AND_ALERTS_ACCESS_CONTROL",
+        "path": "17.22",
+        "setting_module_config": {
+            "key": "EventsAndAlertsAccessControl",
+            "icon": "fas fa-history",
+            "route": "Access/events-and-alerts",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 5,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 23,
+        "module": "VEHICLE",
+        "path": "17.23",
+        "setting_module_config": {
+            "key": "Vehicle",
+            "icon": "fas fa-car",
+            "route": "Access/vehicles",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 4,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 24,
+        "module": "DASHBOARD_ACCESS_CONTROL_PLANS",
+        "path": "17.24",
+        "setting_module_config": {
+            "key": "DashboardAccessControlPlans",
+            "icon": "fas fa-map-marked-alt",
+            "route": "Access/plans",
+            "position": "SIDEBAR-UP"
+        },
+        "order": 2,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 25,
+        "module": "INTELLI_GUEST",
+        "path": "25",
+        "setting_module_config": {
+            "key": "IntelliGuest",
+            "icon": "intelliguest.svg",
+            "route": "Guest/dashboard",
+            "position": "HEADER"
+        },
+        "order": 3,
+        "is_render": 1,
+        "is_render_mobile": 0
+    },
+    {
+        "id_module": 26,
+        "module": "DASHBOARD_GUEST",
+        "path": "25.26",
+        "setting_module_config": {
+            "key": "DashboardGuest",
+            "icon": "intelli_dashboard",
+            "route": "Guest/dashboard",
+            "position": "SIDEBAR-UP"
+        },
+        "order": 0,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 27,
+        "module": "PERSON_GUEST",
+        "path": "25.27",
+        "setting_module_config": {
+            "key": "PersonGuest",
+            "icon": "fas fa-user",
+            "route": "Guest/person",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 2,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 28,
+        "module": "DASHBOARD_GUEST_PLANS",
+        "path": "25.28",
+        "setting_module_config": {
+            "key": "DashboardGuestPlans",
+            "icon": "fas fa-map-marked-alt",
+            "route": "Guest/plans",
+            "position": "SIDEBAR-UP"
+        },
+        "order": 1,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 29,
+        "module": "VISIT",
+        "path": "25.29",
+        "setting_module_config": {
+            "key": "Visit",
+            "icon": "fas fa-users",
+            "route": "Guest/visits",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 3,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            9,
+            10,
+            11,
+            16
+        ]
+    },
+    {
+        "id_module": 30,
+        "module": "VISIT_SCHEDULED",
+        "path": "25.30",
+        "setting_module_config": {
+            "key": "VisitScheduled",
+            "icon": "intelli_visits_scheduled",
+            "route": "Guest/visits_scheduled",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 4,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            8,
+            9,
+            10,
+            11
+        ]
+    },
+    {
+        "id_module": 31,
+        "module": "CLOSING_RULE",
+        "path": "1.5.48.31",
+        "setting_module_config": {
+            "key": "ClosingRules",
+            "icon": "intelli_closing_rule",
+            "route": "config/guest/closing_rules",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 1,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 32,
+        "module": "REGISTRATION_STATION",
+        "path": "1.5.48.32",
+        "setting_module_config": {
+            "key": "RegistrationStations",
+            "icon": "intelli_registration_station",
+            "route": "config/guest/registration_stations",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 2,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 33,
+        "module": "EVENTS_AND_ALERTS_GUEST",
+        "path": "25.33",
+        "setting_module_config": {
+            "key": "EventsAndAlertsGuest",
+            "icon": "fas fa-history",
+            "route": "Guest/events-and-alerts",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 7,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 34,
+        "module": "ENTITY_GROUP",
+        "path": "1.5.6.34",
+        "setting_module_config": {
+            "key": "EntityGroup",
+            "icon": "intelli_device_group",
+            "route": "config/generals/entities_groups",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 8,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 35,
+        "module": "TEXT_TEMPLATE",
+        "path": "1.5.6.35",
+        "setting_module_config": {
+            "key": "TextTemplate",
+            "icon": "fas fa-envelope-open-text",
+            "route": "config/generals/text_template",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 9,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 36,
+        "module": "REPORT",
+        "path": "1.36",
+        "setting_module_config": {
+            "key": "Report",
+            "icon": "fal fa-file-chart-pie",
+            "route": "report",
+            "position": "SIDEBAR-DOWN"
+        },
+        "order": 5,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 37,
+        "module": "MASIVE_LOAD",
+        "path": "1.5.6.37",
+        "setting_module_config": {
+            "key": "MasiveLoad",
+            "icon": "fas fa-file-upload",
+            "route": "config/generals/masive_load",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 10,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 38,
+        "module": "ACCESS_CONTROL",
+        "path": "1.5.47",
+        "setting_module_config": {
+            "key": "AccessControl",
+            "icon": "intelli_access",
+            "route": "config/access",
+            "position": "CONFIGURACION-MENU"
+        },
+        "order": 3,
+        "is_render": 1,
+        "is_render_mobile": 0
+    },
+    {
+        "id_module": 39,
+        "module": "VISIT_CONF",
+        "path": "1.5.48",
+        "setting_module_config": {
+            "key": "Visit",
+            "icon": "intelli_guest",
+            "route": "config/guest",
+            "position": "CONFIGURACION-MENU"
+        },
+        "order": 3,
+        "is_render": 1,
+        "is_render_mobile": 0
+    },
+    {
+        "id_module": 40,
+        "module": "TIME_AND_ATTENDANCE",
+        "path": "1.5.40",
+        "setting_module_config": {
+            "key": "TimeAndAttendance",
+            "icon": "intelli_time",
+            "route": "config/time",
+            "position": "CONFIGURACION-MENU"
+        },
+        "order": 2,
+        "is_render": 1,
+        "is_render_mobile": 1
+    },
+    {
+        "id_module": 41,
+        "module": "PERIOD",
+        "path": "1.5.40.41",
+        "setting_module_config": {
+            "key": "Period",
+            "icon": "fas fa-calendar-times",
+            "route": "config/time/periods",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 6,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 42,
+        "module": "HOLIDAY",
+        "path": "1.5.40.42",
+        "setting_module_config": {
+            "key": "Holiday",
+            "icon": "fas fa-calendar-day",
+            "route": "config/time/holidays",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 9,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 44,
+        "module": "NOVELTY_PERMISSION",
+        "path": "1.5.40.44",
+        "setting_module_config": {
+            "key": "NoveltiesPermissions",
+            "icon": "fas fa-list-alt",
+            "route": "config/time/novelties_permissions",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 7,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 45,
+        "module": "CONTRACT_TYPE",
+        "path": "1.5.40.45",
+        "setting_module_config": {
+            "key": "ContractType",
+            "icon": "fas fa-id-card-alt",
+            "route": "config/time/contract_types",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 5,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 46,
+        "module": "WORKSHIFT",
+        "path": "1.5.40.46",
+        "setting_module_config": {
+            "key": "Workshift",
+            "icon": "fas fa-business-time",
+            "route": "config/time/workshifts",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 2,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 47,
+        "module": "JOB",
+        "path": "1.5.40.47",
+        "setting_module_config": {
+            "key": "Job",
+            "icon": "fas fa-briefcase",
+            "route": "config/time/jobs",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 1,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 48,
+        "module": "INTELLI_TIME",
+        "path": "48",
+        "setting_module_config": {
+            "key": "IntelliTimeAndAttendance",
+            "icon": "intellitimeattendance.svg",
+            "route": "Time/dashboard",
+            "position": "HEADER"
+        },
+        "order": 1,
+        "is_render": 1,
+        "is_render_mobile": 1
+    },
+    {
+        "id_module": 49,
+        "module": "DASHBOARD_TIME_ATTENDANCE",
+        "path": "48.49",
+        "setting_module_config": {
+            "key": "DashboardTimeAttendance",
+            "icon": "intelli_dashboard",
+            "route": "Time/dashboard",
+            "position": "SIDEBAR-UP"
+        },
+        "order": 0,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 50,
+        "module": "DASHBOARD_TIME_ATTENDANCE_PLANS",
+        "path": "48.50",
+        "setting_module_config": {
+            "key": "DashboardTimeAttendancePlans",
+            "icon": "fas fa-map-marked-alt",
+            "route": "Time/plans",
+            "position": "SIDEBAR-UP"
+        },
+        "order": 1,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 51,
+        "module": "PERSON_TIME_ATTENDANCE",
+        "path": "48.51",
+        "setting_module_config": {
+            "key": "PersonTimeAttendance",
+            "icon": "fas fa-user",
+            "route": "Time/persons",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 2,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 52,
+        "module": "WORK_ORDER",
+        "path": "48.52",
+        "setting_module_config": {
+            "key": "WorkOrder",
+            "icon": "intelli_lista",
+            "route": "Time/work_orders",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 5,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 53,
+        "module": "TIME_PLANNING",
+        "path": "48.53",
+        "setting_module_config": {
+            "key": "TimePlanning",
+            "icon": "intelli_calendario",
+            "route": "Time/time_planning",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 3,
+        "is_render": 1,
+        "is_render_mobile": 1
+    },
+    {
+        "id_module": 54,
+        "module": "ENTITY_SCHEDULE",
+        "path": "48.53.54",
+        "setting_module_config": [],
+        "order": 4,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 55,
+        "module": "ENTITY_PERMISSION",
+        "path": "48.53.55",
+        "setting_module_config": [],
+        "order": 5,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 56,
+        "module": "WORKSHIFT_GUESSING_GROUP",
+        "path": "1.5.40.56",
+        "setting_module_config": {
+            "key": "WorkShiftGuessingGroup",
+            "icon": "fas fa-object-group",
+            "route": "config/time/workshift_guessing_groups",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 3,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 57,
+        "module": "MARKING_ROLE",
+        "path": "1.5.40.57",
+        "setting_module_config": {
+            "key": "MarkingRole",
+            "icon": "fas fa-user-clock",
+            "route": "config/time/marking_roles",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 11,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 58,
+        "module": "NOVELTY_AUDIT",
+        "path": "48.58",
+        "setting_module_config": {
+            "key": "NoveltyAudit",
+            "icon": "fas fa-exclamation-triangle",
+            "route": "Time/novelties_audits",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 4,
+        "is_render": 1,
+        "is_render_mobile": 1
+    },
+    {
+        "id_module": 59,
+        "module": "ENTITY_TIMELOG",
+        "path": "48.53.59",
+        "setting_module_config": [],
+        "order": 4,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4,
+            14
+        ]
+    },
+    {
+        "id_module": 60,
+        "module": "ENTITY_PERMISSION",
+        "path": "48.58.60",
+        "setting_module_config": [],
+        "order": null,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id_module": 61,
+        "module": "ENTITY_TIMES",
+        "path": "48.58.61",
+        "setting_module_config": [],
+        "order": null,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            3
+        ]
+    },
+    {
+        "id_module": 62,
+        "module": "EVENTS_AND_ALERTS_ACCESS_CONTROL",
+        "path": "48.62",
+        "setting_module_config": {
+            "key": "EventsAndAlertsTimeAttendance",
+            "icon": "fas fa-history",
+            "route": "Time/events-and-alerts",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 6,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 63,
+        "module": "SEGMENT_IP",
+        "path": "1.5.40.63",
+        "setting_module_config": {
+            "key": "SegmentIp",
+            "icon": "fas fa-network-wired",
+            "route": "config/time/segment_ips",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 10,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 68,
+        "module": "LOCATION_SCHEDULING",
+        "path": "1.5.47.68",
+        "setting_module_config": {
+            "key": "LocationScheduling",
+            "icon": "fas fa-flux-capacitor",
+            "route": "config/access/location_schedulings",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 3,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 69,
+        "module": "PERSON_SCHEDULING",
+        "path": "17.69",
+        "setting_module_config": {
+            "key": "PersonScheduling",
+            "icon": "fas fa-address-book",
+            "route": "Access/person_schedulings",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 4,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 70,
+        "module": "ADVANCE",
+        "path": "1.5.6.70",
+        "setting_module_config": {
+            "key": "Advance",
+            "icon": "fas fa-sliders-v-square",
+            "route": "config/generals/advance",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 10,
+        "is_render": 1,
+        "is_render_mobile": 1,
+        "operations": [
+            1,
+            3
+        ]
+    },
+    {
+        "id_module": 71,
+        "module": "GUEST_CARD",
+        "path": "1.5.48.71",
+        "setting_module_config": {
+            "key": "GuestCard",
+            "icon": "fas fa-address-card",
+            "route": "config/guest/cards",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 3,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 73,
+        "module": "PERSON_PROVIDER",
+        "path": "17.73",
+        "setting_module_config": {
+            "key": "PersonProvider",
+            "icon": "fas fa-user-tie",
+            "route": "Access/providers",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 2,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 74,
+        "module": "ACCESS_SCHEDULING",
+        "path": "1.5.47.74",
+        "setting_module_config": {
+            "key": "AccessScheduling",
+            "icon": "fas fa-clock",
+            "route": "config/access/schedules",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 4,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 82,
+        "module": "PRODUCTIVITY",
+        "path": "48.82",
+        "setting_module_config": {
+            "key": "Productivity",
+            "icon": "fas fa-chart-line",
+            "route": "Time/productivity",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 5,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 84,
+        "module": "APLICATION",
+        "path": "1.5.40.84",
+        "setting_module_config": {
+            "key": "Aplication",
+            "icon": "fas fa-browser",
+            "route": "config/time/aplications",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 12,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 85,
+        "module": "ENTITY_TIMES",
+        "path": "48.53.85",
+        "setting_module_config": [],
+        "order": 6,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            3
+        ]
+    },
+    {
+        "id_module": 86,
+        "module": "ENTITY_TIMELOG",
+        "path": "48.58.86",
+        "setting_module_config": [],
+        "order": 3,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4,
+            14
+        ]
+    },
+    {
+        "id_module": 87,
+        "module": "ENTITY_SCHEDULE",
+        "path": "48.58.87",
+        "setting_module_config": [],
+        "order": 4,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id_module": 88,
+        "module": "ASSING_PLACE",
+        "path": "1.5.47.88",
+        "setting_module_config": {
+            "key": "Assign_place",
+            "icon": "fas fa-chair-office",
+            "route": "config/access/assign_place",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 5,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            4,
+            3,
+            2
+        ]
+    },
+    {
+        "id_module": 89,
+        "module": "TIME_SHEET",
+        "path": "48.89",
+        "setting_module_config": {
+            "key": "Time_sheet",
+            "icon": "fas fa-file-spreadsheet",
+            "route": "Time/time_sheet",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 4,
+        "is_render": 1,
+        "is_render_mobile": 0
+    },
+    {
+        "id_module": 90,
+        "module": "LUNCH",
+        "path": "1.5.90",
+        "setting_module_config": {
+            "key": "Lunch",
+            "icon": "intelli_lunch",
+            "route": "config/lunch",
+            "position": "CONFIGURACION-MENU"
+        },
+        "order": 4,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            4,
+            3,
+            2
+        ]
+    },
+    {
+        "id_module": 90,
+        "module": "LUNCH",
+        "path": "1.5.90",
+        "setting_module_config": {
+            "key": "Lunch",
+            "icon": "intelli_lunch",
+            "route": "config/lunch",
+            "position": "CONFIGURACION-MENU"
+        },
+        "order": 4,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            4,
+            3,
+            2
+        ]
+    },
+    {
+        "id_module": 91,
+        "module": "FOOD_SCHEDULE",
+        "path": "1.5.90.91",
+        "setting_module_config": {
+            "key": "FoodSchedule",
+            "icon": "fas fa-clipboard-list-check",
+            "route": "config/lunch/food_schedules",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 2,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            4,
+            3,
+            2
+        ]
+    },
+    {
+        "id_module": 92,
+        "module": "MENU",
+        "path": "1.5.90.92",
+        "setting_module_config": {
+            "key": "Menu",
+            "icon": "fas fa-book-open",
+            "route": "config/lunch/menus",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 1,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            4,
+            3,
+            2
+        ]
+    },
+    {
+        "id_module": 93,
+        "module": "FOOD_ROLE",
+        "path": "1.5.90.93",
+        "setting_module_config": {
+            "key": "FoodRole",
+            "icon": "fas fa-users-cog",
+            "route": "config/lunch/food_roles",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 3,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            4,
+            3,
+            2
+        ]
+    },
+    {
+        "id_module": 94,
+        "module": "INTELLI_LUNCH",
+        "path": "94",
+        "setting_module_config": {
+            "key": "IntelliLunch",
+            "icon": "intelli_lunch",
+            "route": "Lunch/dashboard",
+            "position": "HEADER"
+        },
+        "order": 4,
+        "is_render": 1,
+        "is_render_mobile": 0
+    },
+    {
+        "id_module": 95,
+        "module": "DASHBOARD_LUNCH",
+        "path": "94.95",
+        "setting_module_config": {
+            "key": "DashboardLunch",
+            "icon": "intelli_dashboard",
+            "route": "Lunch/dashboard",
+            "position": "SIDEBAR-UP"
+        },
+        "order": 0,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1
+        ]
+    },
+    {
+        "id_module": 96,
+        "module": "PERSON_LUNCH",
+        "path": "94.96",
+        "setting_module_config": {
+            "key": "PersonLunch",
+            "icon": "fas fa-user",
+            "route": "Lunch/person",
+            "position": "SIDEBAR-CENTER"
+        },
+        "order": 2,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            4,
+            3,
+            2
+        ]
+    },
+    {
+        "id_module": 97,
+        "module": "LUNCH_APP",
+        "path": "94.97",
+        "setting_module_config": [],
+        "order": 1,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            15
+        ]
+    },
+    {
+        "id_module": 98,
+        "module": "ENTITY_TIMELOG",
+        "path": "48.89.98",
+        "setting_module_config": [],
+        "order": 3,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4,
+            14
+        ]
+    },
+    {
+        "id_module": 99,
+        "module": "ENTITY_SCHEDULE",
+        "path": "48.89.99",
+        "setting_module_config": [],
+        "order": 4,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "id_module": 100,
+        "module": "ENTITY_PERMISSION",
+        "path": "48.89.100",
+        "setting_module_config": [],
+        "order": 4,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            3
+        ]
+    },
+    {
+        "id_module": 101,
+        "module": "ENTITY_TIMES",
+        "path": "48.89.101",
+        "setting_module_config": [],
+        "order": 4,
+        "is_render": 0,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            3
+        ]
+    },
+    {
+        "id_module": 102,
+        "module": "WORKSHIFT_ROTATION",
+        "path": "1.5.40.102",
+        "setting_module_config": {
+            "key": "WorkshiftRotation",
+            "icon": "fas fa-clipboard-list-check",
+            "route": "config/time/workshift_rotations",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 4,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            4,
+            3,
+            2
+        ]
+    },
+    {
+        "id_module": 103,
+        "module": "INTEGRATION",
+        "path": "1.5.6.103",
+        "setting_module_config": {
+            "key": "Integration",
+            "icon": "fas fa-server",
+            "route": "config/generals/integrations",
+            "position": "CONFIGURACION-SUB-MENU"
+        },
+        "order": 12,
+        "is_render": 1,
+        "is_render_mobile": 0,
+        "operations": [
+            1,
+            3
+        ]
+    }
+]
